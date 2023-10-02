@@ -1,0 +1,224 @@
+
+/**#f2eadd*/
+body{
+    background-color: #f2eadd;
+    font-style: oblique;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    border: 100px;
+    padding: 80px;
+    margin: 10px;
+}
+
+.Datos{
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 5px double #e6dbca;
+}
+
+
+/**#5399DB41*/
+h1{
+    text-align: center;
+    color: #131311d8;
+    height: 130px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 125px;
+    margin: 10px 0px 30px 0px;
+    padding-bottom: 20px;
+    background-color: #e6dbca;
+}
+
+/**#1859EF, #1F71A9,#1FA994,#36A91F*/
+#barra-colores-1{
+    width: 1175px;
+    height: 10px;
+    background-image: linear-gradient(90deg,#ccbca2, #d39839,#a07023,#5f4317);
+    margin: 2px 0px 30px 0px;
+}
+
+#barra-colores-2{
+    width: 1175px;
+    height: 10px;
+    background-image: linear-gradient(90deg,#ccbca2, #d39839,#a07023,#5f4317);
+    margin: 15px 0px 15px 0px;
+}
+
+#barra-colores-3{
+    width: 540px;
+    height: 7px;
+    background-image: linear-gradient(90deg,#ccbca2, #d39839,#a07023,#5f4317);
+    margin: 15px 0px 15px 0px;
+}
+
+h3{
+    text-decoration: underline black;
+}
+
+#idioma{
+    text-decoration: none;
+}
+
+#Seguridad-informatica{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: 200;
+    color: #2b2c2cb7;
+    border: 0;
+    margin: 0;
+}
+
+#Boton-Contactar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: auto;
+    background-color: #7c5441;
+    color: white;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #7c5441;
+    cursor: pointer;
+}
+
+#contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #080303;
+}
+
+#Boton-Certificado-1,#Boton-Certificado-2{
+    background-color: #7c5441;
+    border-color: #7c5441;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#Lista-Certificado-1{
+    padding-bottom: 10px;
+}
+
+#imagen-CV{
+    margin-left: 25%;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border: solid #3f3939da;
+    vertical-align: middle;
+}
+
+.Hard-Skills{
+    column-count: 3;
+    column-gap: 2px;
+    padding-inline-start: 0;
+}
+
+.circular-progress-1,.circular-progress-2,.circular-progress-3{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.outer-1,.outer-2,.outer-3{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7)
+}
+
+.inner-1,.inner-2,.inner-3{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0,5px -0,5px 0px rgba(255,255,255,1),
+                0,5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.2)
+}
+
+#number-3,#number-2,#number-1{
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+#circle-1{
+    fill: none;
+    stroke: url(#GradientColor-1);
+    stroke-width: 15px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+
+
+
+    animation: anim1 2s linear forwards;
+}
+
+#circle-2{
+    fill: none;
+    stroke: url(#GradientColor-2);
+    stroke-width: 15px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 2s linear forwards; 
+}
+
+#circle-3{
+    fill: none;
+    stroke: url(#GradientColor-3);
+    stroke-width: 15px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim3 2s linear forwards;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/** animacion del circulo de progreso */
+@keyframes anim1{
+    100%{
+        stroke-dashoffset: 92;
+    }
+}
+
+@keyframes anim2{
+    100%{
+        stroke-dashoffset: 130;
+    }
+}
+
+@keyframes anim3{
+    100%{
+        stroke-dashoffset: 210;
+    }
+}
